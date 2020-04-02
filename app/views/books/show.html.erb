@@ -9,6 +9,9 @@
   </head>
 
   <body class="toppage">
+    <p id="notice">
+      <%= notice %> 
+    </p>
     <p class ="toppage__text"><strong>Title:</strong><%= @book.title %></p>
     <p class ="toppage__text"><strong>Body:</strong><%= @book.body %></p>
     <p class ="toppage__text"><%= link_to "Edit", edit_book_path(@book), {class: "toppage__link"} %>｜<a class ="toppage__link" href="/books">Back</a></p>
