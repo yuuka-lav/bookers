@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+.toppage{
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+  &__books{
+    margin: 18px 0;
+  }
+  &__title{
+    width: 170px;
+  }
+  &__body{
+    width: 350px;
+  }
+  &__text{
+    margin: 33px;
+  }
+  &__link{
+    color: #666;
+  }
+  &__link:hover{
+    background-color: black;
+    color: #fff;
+  }
+  &__btn{
+    margin-top: 10px;
+  }
+}
+th {
+  padding-bottom: 5px;
+}
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#book_title{
+  margin-bottom: 10px;
+}
+#book_body{
+  display: block;
+  margin-bottom: 10px;
+}
